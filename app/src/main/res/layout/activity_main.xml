@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.qqslidingmenu.MainActivity">
+
+    <com.example.administrator.qqslidingmenu.view.DrawLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ff0000" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#0000dd" />
+
+    </com.example.administrator.qqslidingmenu.view.DrawLayout>
+</LinearLayout>
